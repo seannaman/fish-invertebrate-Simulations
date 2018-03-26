@@ -6,7 +6,7 @@
 # X is the length of a given upstream riffle, 
 # N0 is the initial number in the drift, 
 # R is the settlment rate - defined as 1/drift distance (D).
-# D is a function of water velocity (Anderson et al. 2013. Ecological Modelling)
+# D is a function of water velocity (V) based on Anderson et al. (2013) Ecological Modelling.
 
 ## This function also incorporates uncertainty and variance in drift distances by randomly drawing from an 
 ## exponential distribution around a given D value.
